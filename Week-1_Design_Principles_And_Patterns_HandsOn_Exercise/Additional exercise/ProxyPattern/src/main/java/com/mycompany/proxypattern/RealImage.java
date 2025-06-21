@@ -6,13 +6,13 @@ public class RealImage implements Image {
 
     public RealImage(String filename) {
         this.filename = filename;
-        loadFromRemoteServer(); // Simulate time-consuming loading
+        loadFromRemoteServer(); 
     }
 
     private void loadFromRemoteServer() {
         System.out.println("Loading image from remote server: " + filename);
         try {
-            Thread.sleep(2000); // simulate network delay
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

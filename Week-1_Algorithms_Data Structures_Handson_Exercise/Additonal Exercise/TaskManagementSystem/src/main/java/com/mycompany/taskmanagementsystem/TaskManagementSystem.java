@@ -19,7 +19,6 @@ class Node {
 public class TaskManagementSystem {
     Node head = null;
 
-    // Add task at the end
     void addTask(int id, String name, String status) {
         Task newTask = new Task(id, name, status);
         Node newNode = new Node(newTask);
@@ -35,7 +34,6 @@ public class TaskManagementSystem {
         System.out.println("Task added.");
     }
 
-    // Search task by ID
     void searchTask(int id) {
         Node temp = head;
         while (temp != null) {
@@ -49,7 +47,6 @@ public class TaskManagementSystem {
         System.out.println("Task not found.");
     }
 
-    // Traverse all tasks
     void viewTasks() {
         if (head == null) {
             System.out.println("No tasks to display.");
@@ -64,7 +61,6 @@ public class TaskManagementSystem {
         }
     }
 
-    // Delete task by ID
     void deleteTask(int id) {
         if (head == null) {
             System.out.println("Task list is empty.");
@@ -89,7 +85,6 @@ public class TaskManagementSystem {
         }
     }
 
-    // Main method
     public static void main(String[] args) {
         TaskManagementSystem tms = new TaskManagementSystem();
         Scanner sc = new Scanner(System.in);

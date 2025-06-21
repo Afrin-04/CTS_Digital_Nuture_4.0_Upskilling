@@ -15,7 +15,7 @@ public class ProxyImage implements Image {
     @Override
     public void display() {
         if (realImage == null) {
-            realImage = new RealImage(filename); // Lazy initialization
+            realImage = new RealImage(filename); 
         } else {
             System.out.println("Using cached image: " + filename);
         }
