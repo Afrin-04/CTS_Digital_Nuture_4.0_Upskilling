@@ -1,9 +1,0 @@
-com\mycompany\documentfactorysystem\Document.class
-com\mycompany\documentfactorysystem\ExcelDocumentFactory.class
-com\mycompany\documentfactorysystem\PdfDocument.class
-com\mycompany\documentfactorysystem\PdfDocumentFactory.class
-com\mycompany\documentfactorysystem\DocumentFactory.class
-com\mycompany\documentfactorysystem\WordDocumentFactory.class
-com\mycompany\documentfactorysystem\Main.class
-com\mycompany\documentfactorysystem\WordDocument.class
-com\mycompany\documentfactorysystem\ExcelDocument.class
