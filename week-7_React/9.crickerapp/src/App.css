@@ -1,0 +1,10 @@
+.App {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+h2, h3 {
+  margin-top: 20px;
+}
+hr {
+  margin: 20px 0;
+}
